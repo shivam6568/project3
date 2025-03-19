@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Sports Hub</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sports">Sports</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Sports Hub</h1>
+            <p style="font-weight: bold;">Your one-stop destination for all things sports</p>
+            <a href="#sports" class="cta-button">Explore Sports</a>
+        </div>
+    </section>
+
+    <!-- Sports Section -->
+    <section id="sports" class="sports-section">
+        <h2>Popular Sports</h2>
+        <div class="sports-grid">
+            <div class="sport-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMYrVXenE5bmUMRyHvwGBdWdtTjY4W2GUMAA&s" alt="football">
+                <h3>Football</h3>
+                <p>The world's most popular sport</p>
+            </div>
+            <div class="sport-card">
+                <img src="https://cdn.pixabay.com/photo/2022/04/09/15/10/basketball-7121617_1280.jpg" alt="basketball">
+                <h3>Basketball</h3>
+                <p>Fast-paced court action</p>
+            </div>
+            <div class="sport-card">
+                <img src="https://plus.unsplash.com/premium_photo-1666913667082-c1fecc45275d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGVubmlzfGVufDB8fDB8fHww" alt="tennis">
+
+                <h3>Tennis</h3>
+                <p>Individual excellence</p>
+            </div>
+            <div class="sport-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR840DMN34o0a-a510ILn0AV88TzZASoOXRCA&s" alt="cricket">
+                <h3>Cricket</h3>
+                <p>The gentleman's game</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news-section">
+        <h2>Latest Sports News</h2>
+        <div class="news-grid">
+            <div class="news-card">
+                <img src="https://www.aljazeera.com/wp-content/uploads/2025/03/AFP_2025030936ZN97Hv2HighRes_TopshotCricketCt2025IndNzl-1741541041.jpg?resize=770%2C513&quality=80" alt="Sports News" style="background-size: cover;background-repeat: no-repeat;">
+                <h3>Major Tournament Updates</h3>
+                <h3>Icc Champions Trophy 2025 winner ✨</h3>
+                <h3>INDIA </h3>
+                <p>Stay updated with the latest tournament news and results.</p>
+            </div>
+            <div class="news-card">
+                <img src="data:image/jpeg;base64,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" alt="Athlete News">
+                <h3>Player Transfers</h3>
+                <p>Latest updates on player transfers and contracts.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Sports Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
